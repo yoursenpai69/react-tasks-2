@@ -1,0 +1,36 @@
+@import "Variables";
+.but-list {
+  color: $gray-buttons;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  list-style-type: none;
+  li {
+    font-size: 0.9em;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    border: 1px solid $gray-buttons;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 20px;
+  }
+  .list-text {
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+    font-size: 0.7em;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 11px;
+    font-family: $head-font;
+    font-weight: 600;
+  }
+  border-left: 3px solid $gray-buttons;
+}
+.list-num:hover {
+  color: $title-black;
+  border: 1px solid $title-black;
+}
